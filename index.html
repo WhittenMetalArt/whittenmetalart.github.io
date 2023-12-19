@@ -23,29 +23,25 @@
     .nav-links {
         position: absolute; /* Position the links absolutely */
         top: 80px; /* Adjust the top position */
-        right: 20px; /* Move links to the right */
-        color: white; /* Set link color to white */
-        font-size: 27px; /* Adjust font size */
-        font-weight: bold; /* Set font weight to bold */
+        left: calc(50% + 200px); /* Move links further to the right */
     }
     .nav-links a {
         text-decoration: none; /* Remove underline from links */
+        color: white; /* Set link color to white */
         margin-right: 40px; /* Add space between links */
+        font-size: 27px; /* Adjust font size */
+        font-weight: bold; /* Set font weight to bold */
     }
   </style>
 </head>
 <body>
     <img class="logo" src="https://whittenmetalart.github.io/logo.jpg" alt="Whitten Metal Art Logo"> 
-    <table class="nav-links">
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td><a href="#">Home</a></td>
-            <td><a href="#">About</a></td>
-            <td><a href="#">Contact</a></td>
-            <td><a href="#">Gallery</a></td>
-            <td><a href="#">Custom Order</a></td>
-        </tr>
-    </table>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Gallery</a>
+        <a href="#">Custom Order</a>
+    </div>
 </body>
 </html>
