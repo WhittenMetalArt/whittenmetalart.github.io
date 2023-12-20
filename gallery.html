@@ -6,6 +6,66 @@
   <meta name="description" content="Whitten Metal Art">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
   <style>
+    /* Your existing CSS styles... */
+
+    /* New CSS for the second image */
+    .gallery2 {
+      position: absolute;
+      top: 550px; /* Adjust the top position */
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .gallery2 .gallery-item {
+      flex: 0 0 calc(25% - 20px); /* 4 columns with 20px gap */
+      margin: 10px;
+      text-align: center;
+    }
+
+    .gallery2 .gallery-item img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Your existing HTML code... -->
+
+  <div class="header-text">Gallery</div>
+
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="1.jpg" alt="Image 1">
+      <p>Metal Letters</p>
+    </div>
+
+    <!-- Removed duplicated 'header-text' div -->
+  </div>
+
+  <!-- New gallery for the second image -->
+  <div class="gallery2">
+    <div class="gallery-item">
+      <img src="2.jpg" alt="Image 2">
+      <p>Metal Letters</p>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Whitten Metal Art</title>
+  <meta name="description" content="Whitten Metal Art">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <style>
     body {
         background-color: #000001;
         margin: 0; /* Remove default margin */
@@ -72,62 +132,37 @@
         color: white; /* Set text color to white */
         font-size: 32px; /* Adjust font size */
         font-weight: bold; /* Set font weight to bold */
-
     }
     .header-text a {
         color: white; /* Set link color to white */
         text-decoration: none; /* Remove underline from link */
     }
 
+    /* CSS for the gallery */
+    .gallery {
+      position: absolute;
+      top: 550px; /* Adjust the top position */
+      display: flex;
+      flex-wrap: wrap;
+    }
 
+    .gallery .gallery-item {
+      flex: 0 0 calc(25% - 20px); /* 4 columns with 20px gap */
+      margin: 10px;
+      text-align: center;
+    }
 
-
-
-.gallery {
-  position: absolute;
-  top: 550px; /* Adjust the top position */
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.gallery-item {
-  flex: 0 0 calc(25% - 20px); /* 4 columns with 20px gap */
-  margin: 10px;
-  text-align: center;
-}
-
-.gallery-item img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .gallery .gallery-item img {
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 <body>
     <img class="logo" src="https://whittenmetalart.github.io/logo.jpg" alt="Whitten Metal Art Logo"> 
     <div class="nav-links">
-        <a href="https://example.com">           </a>
-        <a href="https://example.com">           </a>
+        <a href="https://example.com"></a>
+        <a href="https://example.com"></a>
         <a href="https://whittenmetalart.github.io">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
@@ -135,32 +170,5 @@
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScWXwZvduxOO3ohoStg9Z0r8dpkHMyqItZrqcnFFrRdDIjZvw/viewform?usp=sf_link">Custom Order</a>
     </div>
     <div class="line"></div>
-    <div class="contact-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;503-577-0145&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whittenmetalart@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/profile.php?id=61554461834084">Facebook</a></div>
+    <div class="contact-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;503-577-0145&nbsp;&nbsp;&nbsp;&nbsp;&
 
-<div class="location-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sandy Oregon USA</div>
-
-
-<div class="header-text">Gallery</div>
-
-
-
-
-<div class="header-text">Gallery</div>
-
-<div class="gallery">
-  <div class="gallery-item">
-    <img src="1.jpg" alt="Image 1">
-    <p>Metal Letters</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="2.jpg" alt="Image 2">
-    <p>Metal Letters</p>
-  </div>
-</div>
-
-
-
-
-</body>
-</html>
