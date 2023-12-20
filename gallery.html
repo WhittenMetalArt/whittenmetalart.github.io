@@ -83,6 +83,40 @@
 
 
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  flex: 0 0 calc(25% - 20px); /* 4 columns with 20px gap */
+  margin: 10px;
+  text-align: center;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -107,6 +141,29 @@
 
 <div class="header-text">Gallery</div>
 
+
+
+
+<div class="header-text">Gallery</div>
+
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="image1.jpg" alt="Image 1">
+    <p>Description for Image 1</p>
+  </div>
+  <div class="gallery-item">
+    <img src="image2.jpg" alt="Image 2">
+    <p>Description for Image 2</p>
+  </div>
+  <div class="gallery-item">
+    <img src="image3.jpg" alt="Image 3">
+    <p>Description for Image 3</p>
+  </div>
+  <div class="gallery-item">
+    <img src="image4.jpg" alt="Image 4">
+    <p>Description for Image 4</p>
+  </div>
+</div>
 
 
 
