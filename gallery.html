@@ -6,169 +6,103 @@
   <meta name="description" content="Whitten Metal Art">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
   <style>
-    /* Your existing CSS styles... */
-
-    /* New CSS for the second image */
-    .gallery2 {
-      position: absolute;
-      top: 550px; /* Adjust the top position */
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .gallery2 .gallery-item {
-      flex: 0 0 calc(25% - 20px); /* 4 columns with 20px gap */
-      margin: 10px;
-      text-align: center;
-    }
-
-    .gallery2 .gallery-item img {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
-</head>
-<body>
-  <!-- Your existing HTML code... -->
-
-  <div class="header-text">Gallery</div>
-
-  <div class="gallery">
-    <div class="gallery-item">
-      <img src="1.jpg" alt="Image 1">
-      <p>Metal Letters</p>
-    </div>
-
-    <!-- Removed duplicated 'header-text' div -->
-  </div>
-
-  <!-- New gallery for the second image -->
-  <div class="gallery2">
-    <div class="gallery-item">
-      <img src="2.jpg" alt="Image 2">
-      <p>Metal Letters</p>
-    </div>
-  </div>
-
-</body>
-</html>
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Whitten Metal Art</title>
-  <meta name="description" content="Whitten Metal Art">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <style>
     body {
-        background-color: #000001;
-        margin: 0; /* Remove default margin */
-        padding-top: 50px; /* Create space from the top for the logo */
-        position: relative; /* Ensure relative positioning for the body */
-        font-family: Georgia, serif; /* Set the font family */
+      background-color: #000001;
+      margin: 0; /* Remove default margin */
+      padding-top: 50px; /* Create space from the top for the logo */
+      position: relative; /* Ensure relative positioning for the body */
+      font-family: Georgia, serif; /* Set the font family */
     }
     .logo {
-        width: 550px; /* Adjust width to make the logo larger */
-        height: auto;
-        position: absolute; /* Position the logo absolutely */
-        top: 20px; /* Position from the top */
-        right: 20px; /* Position from the right */
+      width: 550px; /* Adjust width to make the logo larger */
+      height: auto;
+      position: absolute; /* Position the logo absolutely */
+      top: 20px; /* Position from the top */
+      right: 20px; /* Position from the right */
     }
     .nav-links {
-        position: absolute; /* Position the links absolutely */
-        top: 160px; /* Adjust the top position */
-        left: 20px; /* Move links to the left */
-        color: white; /* Set link color to white */
-        font-size: 32px; /* Adjust font size */
-        font-weight: bold; /* Set font weight to bold */
+      position: absolute; /* Position the links absolutely */
+      top: 160px; /* Adjust the top position */
+      left: 20px; /* Move links to the left */
+      color: white; /* Set link color to white */
+      font-size: 32px; /* Adjust font size */
+      font-weight: bold; /* Set font weight to bold */
     }
     .nav-links a {
-        text-decoration: none; /* Remove underline from links */
-        margin-right: 20px; /* Add space between links */
-        color: white; /* Set link color to white */
-        display: inline-block; /* Display links in a line */
+      text-decoration: none; /* Remove underline from links */
+      margin-right: 20px; /* Add space between links */
+      color: white; /* Set link color to white */
+      display: inline-block; /* Display links in a line */
     }
     .line {
-        position: absolute;
-        top: 360px; /* Adjust this value to move the line lower */
-        left: 0;
-        width: 100%;
-        height: 4px;
-        background-color: white;
+      position: absolute;
+      top: 360px; /* Adjust this value to move the line lower */
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: white;
     }
     .contact-text {
-        position: absolute;
-        top: 250px; /* Adjust the top position */
-        left: 20px; /* Adjust the left position */
-        color: white; /* Set text color to white */
-        font-size: 26px; /* Adjust font size */
+      position: absolute;
+      top: 250px; /* Adjust the top position */
+      left: 20px; /* Adjust the left position */
+      color: white; /* Set text color to white */
+      font-size: 26px; /* Adjust font size */
     }
     .contact-text a {
-        color: white; /* Set link color to white */
-        text-decoration: none; /* Remove underline from link */
+      color: white; /* Set link color to white */
+      text-decoration: none; /* Remove underline from link */
     }
     .location-text {
-        position: absolute;
-        top: 310px; /* Adjust the top position */
-        left: 20px; /* Adjust the left position */
-        color: white; /* Set text color to white */
-        font-size: 20px; /* Adjust font size */
+      position: absolute;
+      top: 310px; /* Adjust the top position */
+      left: 20px; /* Adjust the left position */
+      color: white; /* Set text color to white */
+      font-size: 20px; /* Adjust font size */
     }
     .location-text a {
-        color: white; /* Set link color to white */
-        text-decoration: none; /* Remove underline from link */
+      color: white; /* Set link color to white */
+      text-decoration: none; /* Remove underline from link */
     }
-
     .header-text {
-        position: absolute;
-        top: 400px; /* Adjust the top position */
-        left: 20px; /* Adjust the left position */
-        color: red; /* Set text color to white */
-        font-size: 32px; /* Adjust font size */
-        font-weight: bold; /* Set font weight to bold */
+      position: absolute;
+      top: 400px; /* Adjust the top position */
+      left: 20px; /* Adjust the left position */
+      color: white; /* Set text color to white */
+      font-size: 32px; /* Adjust font size */
+      font-weight: bold; /* Set font weight to bold */
     }
     .header-text a {
-        color: white; /* Set link color to white */
-        text-decoration: none; /* Remove underline from link */
+      color: white; /* Set link color to white */
+      text-decoration: none; /* Remove underline from link */
     }
-
-    /* CSS for the gallery */
     .gallery {
       position: absolute;
       top: 550px; /* Adjust the top position */
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-around; /* Align items in the center */
     }
-
-    .gallery .gallery-item {
+    .gallery-item {
       flex: 0 0 calc(25% - 20px); /* 4 columns with 20px gap */
       margin: 10px;
       text-align: center;
     }
-
-    .gallery .gallery-item img {
+    .gallery-item img {
       max-width: 100%;
       height: auto;
     }
   </style>
 </head>
 <body>
-    <img class="logo" src="https://whittenmetalart.github.io/logo.jpg" alt="Whitten Metal Art Logo"> 
-    <div class="nav-links">
-        <a href="https://example.com"></a>
-        <a href="https://example.com"></a>
-        <a href="https://whittenmetalart.github.io">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScWXwZvduxOO3ohoStg9Z0r8dpkHMyqItZrqcnFFrRdDIjZvw/viewform?usp=sf_link">Custom Order</a>
-    </div>
-    <div class="line"></div>
-    <div class="contact-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;503-577-0145&nbsp;&nbsp;&nbsp;&nbsp;&
-
+  <img class="logo" src="https://whittenmetalart.github.io/logo.jpg" alt="Whitten Metal Art Logo"> 
+  <div class="nav-links">
+    <a href="https://example.com"></a>
+    <a href="https://example.com"></a>
+    <a href="https://whittenmetalart.github.io">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScWXwZvduxOO3ohoStg9Z0r8dpkHMyqItZrqcnFFrRdDIjZvw/viewform?usp=sf_link">Custom Order</a>
+  </div>
+  <div class="line"></div
