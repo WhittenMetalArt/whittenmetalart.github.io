@@ -3,100 +3,153 @@
 <head>
   <meta charset="utf-8">
   <title>Whitten Metal Art</title>
-  <link rel="shortcut icon" type="image/x-icon" href="https://whittenmetalart.github.io/clear.png">
+ <link rel="shortcut icon" type="image/x-icon" href="https://whittenmetalart.github.io/clear.png">
   <meta name="description" content="Whitten Metal Art">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
   <style>
-    /* Base styles */
-
-    /* General styles */
     body {
-      background-color: #000001;
-      margin: 0;
-      font-family: Georgia, serif;
-      color: white;
-      padding-top: 20px; /* Adjust top padding */
+        background-color: #000001;
+        margin: 0; /* Remove default margin */
+        padding-top: 50px; /* Create space from the top for the logo */
+        position: relative; /* Ensure relative positioning for the body */
+        font-family: Georgia, serif; /* Set the font family */
     }
-
     .logo {
-      max-width: 100%; /* Adjust logo size */
-      height: auto;
-      display: block;
-      margin: 0 auto; /* Center the logo */
+        width: 550px; /* Adjust width to make the logo larger */
+        height: auto;
+        position: absolute; /* Position the logo absolutely */
+        top: 20px; /* Position from the top */
+        right: 20px; /* Position from the right */
     }
-
     .nav-links {
-      text-align: center; /* Center the links */
-      margin-top: 20px; /* Adjust top margin */
+        position: absolute; /* Position the links absolutely */
+        top: 160px; /* Adjust the top position */
+        left: 20px; /* Move links to the left */
+        color: white; /* Set link color to white */
+        font-size: 32px; /* Adjust font size */
+        font-weight: bold; /* Set font weight to bold */
     }
-
     .nav-links a {
-      text-decoration: none;
-      color: white;
-      margin: 0 10px; /* Add space between links */
-      font-size: 18px; /* Adjust font size */
+        text-decoration: none; /* Remove underline from links */
+        margin-right: 20px; /* Add space between links */
+        color: white; /* Set link color to white */
+        display: inline-block; /* Display links in a line */
     }
-
     .line {
-      width: 100%;
-      height: 2px; /* Reduce line height */
-      background-color: white;
+        position: absolute;
+        top: 360px; /* Adjust this value to move the line lower */
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: white;
     }
-
-    .contact-text,
+    .contact-text {
+        position: absolute;
+        top: 250px; /* Adjust the top position */
+        left: 20px; /* Adjust the left position */
+        color: white; /* Set text color to white */
+        font-size: 26px; /* Adjust font size */
+    }
+    .contact-text a {
+        color: white; /* Set link color to white */
+        text-decoration: none; /* Remove underline from link */
+    }
     .location-text {
-      text-align: center;
-      font-size: 14px; /* Adjust font size */
-      margin-top: 20px; /* Adjust top margin */
+        position: absolute;
+        top: 310px; /* Adjust the top position */
+        left: 20px; /* Adjust the left position */
+        color: white; /* Set text color to white */
+        font-size: 20px; /* Adjust font size */
+    }
+    .location-text a {
+        color: white; /* Set link color to white */
+        text-decoration: none; /* Remove underline from link */
     }
 
-    .contact-text a,
-    .location-text a {
-      color: white;
-      text-decoration: none;
+    img.custom-imageL {
+      margin-top: 420px; /* Adjust this value to position the image further down */
+      position: absolute;
+      left: 60px;
     }
+
 
     .body-text {
-      text-align: center;
-      font-size: 24px; /* Adjust font size */
-      margin-top: 40px; /* Adjust top margin */
+        position: absolute;
+        top: 500px; /* Adjust the top position */
+        left: 700px; /* Adjust the left position */
+        color: white; /* Set text color to white */
+        font-size: 100px; /* Adjust font size */
+        font-weight: bold; /* Set font weight to bold */
+
+
+    }
+    .body-text a {
+        color: white; /* Set link color to white */
+        text-decoration: none; /* Remove underline from link */
     }
 
-    /* Media queries for smaller screens */
-    @media (max-width: 768px) {
-      .nav-links {
-        font-size: 16px; /* Adjust font size for smaller screens */
-      }
-
-      .contact-text,
-      .location-text {
-        font-size: 12px; /* Adjust font size for smaller screens */
-      }
-
-      .body-text {
-        font-size: 18px; /* Adjust font size for smaller screens */
-      }
+    img.custom-imageL {
+      margin-top: 420px; /* Adjust this value to position the image further down */
+      position: absolute;
+      left: 40px;
     }
+
+    img.custom-imageM {
+      width: 1400px;
+      height: auto;
+      margin-top: 1250px; /* Adjust this value to position the image further down */
+      position: absolute;
+      left: 125px;
+    }
+    img.custom-imageR {
+      margin-top: 1800px; /* Adjust this value to position the image further down */
+      position: absolute;
+      right: 40px;
+    }
+
+
+
+
   </style>
 </head>
 <body>
-  <img class="logo" src="https://whittenmetalart.github.io/logo.jpg" alt="Whitten Metal Art Logo">
-  <div class="nav-links">
-    <a href="https://example.com">Link 1</a>
-    <!-- Add your other links here -->
-  </div>
-  <div class="line"></div>
-  <div class="contact-text">503-577-0145 whittenmetalart@gmail.com <a href="https://www.facebook.com/profile.php?id=61554461834084">Facebook</a></div>
-  <div class="location-text">Sandy Oregon USA</div>
+    <img class="logo" src="https://whittenmetalart.github.io/logo.jpg" alt="Whitten Metal Art Logo"> 
+    <div class="nav-links">
+        <a href="https://example.com">           </a>
+        <a href="https://example.com">           </a>
+        <a href="https://whittenmetalart.github.io">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScWXwZvduxOO3ohoStg9Z0r8dpkHMyqItZrqcnFFrRdDIjZvw/viewform?usp=sf_link">Custom Order</a>
+    </div>
+    <div class="line"></div>
+    <div class="contact-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;503-577-0145&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whittenmetalart@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/profile.php?id=61554461834084">Facebook</a></div>
 
-  <img class="custom-imageL" src="https://whittenmetalart.github.io/Gallery/Beamon.jpg" alt="Description of the image">
-  <img class="custom-imageM" src="https://whittenmetalart.github.io/Gallery/31.jpeg" alt="Description of the image">
-  <img class="custom-imageR" src="https://whittenmetalart.github.io/Gallery/32.png" alt="Description of the image">
+<div class="location-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sandy Oregon USA</div>
 
-  <div class="body-text">
-    We Can Make<br><br>
-    Your Design<br><br>
-    Anything 4'x 4'
-  </div>
+
+
+<img class="custom-imageL" src="https://whittenmetalart.github.io/Gallery/Beamon.jpg" alt="Description of the image">
+
+<img class="custom-imageM" src="https://whittenmetalart.github.io/Gallery/31.jpeg" alt="Description of the image">
+
+<img class="custom-imageR" src="https://whittenmetalart.github.io/Gallery/32.png" alt="Description of the image">
+
+<div class="body-text">We &nbsp;&nbsp;Can&nbsp;&nbsp; Make  
+<br><br> 
+&nbsp;&nbsp;Your&nbsp;&nbsp; Design
+ <br><br> 
+Anything&nbsp;&nbsp; 4'x 4'
+<br><br> 
+ </div>
+
+
+
+
+
+
+
+
 </body>
 </html>
